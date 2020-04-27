@@ -4,7 +4,7 @@ public interface State {
 	
 	public void insertCash();
 	public void pressGo();
-	public void openDoor();
-	public void refillTabs();
+	public void closeDoor();
+	public void refillTabs(int refills);
 
 }
